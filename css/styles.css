@@ -1,0 +1,23 @@
+
+body{
+    
+    background-image: url("http://www.freeimg.xyz/wp-content/uploads/2014/09/Blurred-Background-Retina-Display.jpg");
+    
+}
+
+#success{
+    
+    margin-top: 20px;
+    
+}
+
+#home, #history {
+	text-align: center;
+	border-radius: 5px;
+	font-size: 18px;
+	height: 30px;
+	background-color: gold;
+	width: 110px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
