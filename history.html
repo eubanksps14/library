@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-	    <meta http-equiv="X-UA-Compatible" content="IE=edge".
+	    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	    <meta name='viewport' content='width=device-width, initial-scale=1' charset='utf-8'>
 	    <link href="css/bootstrap.min.css" rel="stylesheet">
 	    <link rel="stylesheet" type="text/css" href="css/style-history.css"/>
@@ -10,37 +10,56 @@
         <a href="homepage.html"><button id="home"> Home </button></a>
         <a href="checkout.html"><button id="checkout"> Checkout </button></a>
         
-        <h1 class="main_head"> History </h1>
-        
-<div class="container">
-    <div class="row">
-        <div class="col-md-12">
-            <table class="table books">
-                <tbody> 
-                    <th class="name">
-                        Books
-                    </th>
-                    <th class="date-out">
-                        Checked Out
-                    </th>
-                    <th class="date-due"> 
-                        Due
-                    </th>
-                    <tr>
-                        <td> Book </td>
-                        <td> Date Checked Out </td>
-                        <td> Date Due </td>
-                    </tr>
-                </tbody>
-            </table>
+        <h1 class="text-center"> History </h1>
+
+            <div class="container border text-center">
+                <div class="row book border">
+                    <div class="col-md-4 bookName border">
+                        Moby Dick
+                    </div>
+                    <div class="col-md-4 border">
+                         Checked Out: <span class="checkoutDate">1/1/1000</span>
+                    </div>
+                    <div class="col-md-4 dueDate border">
+                        Due Date: <span class="dueDate">2/2/2000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container border text-center">
+                <div class="row book border">
+                    <div class="col-md-4 bookName border">
+                        Fahrenhiet 451
+                    </div>
+                    <div class="col-md-4 checkoutDate border">
+                        Checked Out: <span class="checkoutDate">1/1/1000</span>
+                    </div>
+                    <div class="col-md-4 dueDate border">
+                        Due Date: <span class="dueDate">2/2/2000</span>
+                    </div>
+                </div>
+            </div>
+            <div class="container border text-center">
+                <div class="row book border">
+                    <div class="col-md-4 bookName border">
+                        Ender's Game
+                    </div>
+                    <div class="col-md-4 checkoutDate border">
+                        Checked Out: <span class="checkoutDate">1/1/1000</span>
+                    </div>
+                    <div class="col-md-4 dueDate border">
+                        Due Date: <span class="dueDate">2/2/2000</span>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>    
     </div>
 </div>
-        <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
-        <script src="js/bootstrap.min.js"></script>
         <script 
         src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
         </script>
+        <script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
+        <script src="js/bootstrap.min.js"></script>
         <script src="js/script-history.js"> </script>
     </body>
 </html>

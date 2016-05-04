@@ -10,17 +10,16 @@ $(document).ready(function () {
     
     $('.btn-success').click(function () {
         var title = $('.title').val();
-        var author = $('.author').val();
-        var checkoutDate = $('.checkout').val();
+        var checkOut = parseInt($('.author').val());
+        var dateDue = parseInt($('.checkout').val());
         
-        
-        fbref.child('userName').child('name').child('')
-        
+        fbref.child('books').child('title').push(title);
+        fbref.child('books').child('checkOut').push(checkOut);
+        fbref.child('books').child('dateDue').push(dateDue);
         
         console.log(title);
-        console.log(author);
-        console.log(checkoutDate);
-        
+        console.log(checkOut);
+        console.log(dateDue);
         
     });
     
