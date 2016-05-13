@@ -1,0 +1,28 @@
+.historyPage, .checkoutPage {
+    text-align: center;
+    font-family: sans-serif;
+}
+input {
+    height: 25px;
+    width: 200px;
+}
+.submit {
+    color: white;
+    background-color: lightgreen;
+}
+.return {
+    text-align: center;
+	border-radius: 5px;
+	font-size: 18px;
+	height: 30px;
+	background-color: gold;
+	width: 200px;
+	margin-top: 30px;
+	margin-left: 20px;
+}
+h1, h2 {
+    font-weight: normal;
+}
+.move {
+    font-family: sans-serif;
+}
